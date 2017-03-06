@@ -1,0 +1,45 @@
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\HTML>dir /b /s
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\HTML\about.txt
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\HTML\indentation.html
+
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\HTML>
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+
+C:\Users\sgeden>cd Desktop
+
+C:\Users\sgeden\Desktop>cd DojoAssignments
+
+C:\Users\sgeden\Desktop\DojoAssignments>dir /b /s
+C:\Users\sgeden\Desktop\DojoAssignments\iOS
+C:\Users\sgeden\Desktop\DojoAssignments\MEAN
+C:\Users\sgeden\Desktop\DojoAssignments\netCore
+C:\Users\sgeden\Desktop\DojoAssignments\Python
+C:\Users\sgeden\Desktop\DojoAssignments\RUBY
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals
+C:\Users\sgeden\Desktop\DojoAssignments\iOS\about.txt
+C:\Users\sgeden\Desktop\DojoAssignments\MEAN\about.txt
+C:\Users\sgeden\Desktop\DojoAssignments\netCore\about.txt
+C:\Users\sgeden\Desktop\DojoAssignments\Python\about.txt
+C:\Users\sgeden\Desktop\DojoAssignments\RUBY\about.txt
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\about.txt
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\CSS
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\Git
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\HTML
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\Javascript
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\CSS\about.txt
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\Git\about.txt
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\Git\Assignments.txt 3.6.
+17.txt
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\Git\Coding Dojo Learning
+ to Commit 3.6.17.txt
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\Git\Coding Dojo Terminal
+ Commands 3.6.17.txt
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\HTML\about.txt
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\HTML\dir
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\HTML\indentation.html
+C:\Users\sgeden\Desktop\DojoAssignments\WebFundamentals\Javascript\about.txt
+
+C:\Users\sgeden\Desktop\DojoAssignments>

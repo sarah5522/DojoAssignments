@@ -1,0 +1,147 @@
+
+sgeden@sgedenlt7 MINGW64 ~ (master)
+$ cd Desktop
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop (master)
+$ mkdir gittest
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop (master)
+$ cd gittest
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ touch index.html styles.css aboutMe.txt
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git init
+Initialized empty Git repository in C:/Users/sgeden/Desktop/gittest/.git/
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ atom .
+
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        aboutMe.txt
+        index.html
+        styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git add .
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git commit -m "updated aboutMe
+> "
+[master (root-commit) 119d272] updated aboutMe
+ 3 files changed, 3 insertions(+)
+ create mode 100644 aboutMe.txt
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   aboutMe.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git add .
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git submit -m "added favorite move to aboutMe"
+git: 'submit' is not a git command. See 'git --help'.
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git log
+commit 119d27211a4c4d055171c3028f82813662916b58
+Author: sarah5522 <sarah.geden@gmail.com>
+Date:   Mon Mar 6 13:27:06 2017 -0500
+
+    updated aboutMe
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git commit -m "added favorite move to aboutMe"
+[master ebea10e] added favorite move to aboutMe
+ 1 file changed, 1 insertion(+)
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git log
+commit ebea10e469a712b2dc22dfe8746967a40165e74e
+Author: sarah5522 <sarah.geden@gmail.com>
+Date:   Mon Mar 6 13:28:52 2017 -0500
+
+    added favorite move to aboutMe
+
+commit 119d27211a4c4d055171c3028f82813662916b58
+Author: sarah5522 <sarah.geden@gmail.com>
+Date:   Mon Mar 6 13:27:06 2017 -0500
+
+    updated aboutMe
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git revert --no-edit HEAD
+[master d7792a3] Revert "added favorite move to aboutMe"
+ 1 file changed, 1 deletion(-)
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   aboutMe.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git add .
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git commit -m "updated aboutMe to add favorite book"
+[master cac6b71] updated aboutMe to add favorite book
+ 1 file changed, 1 insertion(+)
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$ git log
+commit cac6b71193b75e903c89c583eb14de8a8bd0959f
+Author: sarah5522 <sarah.geden@gmail.com>
+Date:   Mon Mar 6 13:32:17 2017 -0500
+
+    updated aboutMe to add favorite book
+
+commit d7792a34b310d1198a6ba831146ef8b8166628a8
+Author: sarah5522 <sarah.geden@gmail.com>
+Date:   Mon Mar 6 13:30:27 2017 -0500
+
+    Revert "added favorite move to aboutMe"
+
+    This reverts commit ebea10e469a712b2dc22dfe8746967a40165e74e.
+
+commit ebea10e469a712b2dc22dfe8746967a40165e74e
+Author: sarah5522 <sarah.geden@gmail.com>
+Date:   Mon Mar 6 13:28:52 2017 -0500
+
+    added favorite move to aboutMe
+
+commit 119d27211a4c4d055171c3028f82813662916b58
+Author: sarah5522 <sarah.geden@gmail.com>
+Date:   Mon Mar 6 13:27:06 2017 -0500
+
+    updated aboutMe
+
+sgeden@sgedenlt7 MINGW64 ~/Desktop/gittest (master)
+$
